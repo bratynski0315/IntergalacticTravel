@@ -1,19 +1,19 @@
 //
-//  ViewController.swift
+//  StarViewController.swift
 //  Intergalactic Travel
 //
-//  Created by student3 on 11/2/16.
+//  Created by student3 on 11/3/16.
 //  Copyright © 2016 John Hersey High School. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class StarViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        
     }
 
 }
-
