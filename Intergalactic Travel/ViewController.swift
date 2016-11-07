@@ -17,9 +17,17 @@ class ViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let nextViewConroller = segue.destination as! StarViewController
+        let nextViewController = segue.destination as! StarViewController
         let button = sender as! UIButton
-        nextViewConroller.title = button.currentTitle
+        nextViewController.title = button.currentTitle
+        if segue.identifier == "blueStarSegue"
+        {
+            nextViewController.isBlueStar = true
+        }
+        else
+        {
+            nextViewController.isBlueStar = false
+        }
     }
     
 }
